@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Helmet -->
+    <path android:fillColor="#4E342E"
+        android:pathData="M13,11 C13,7 18,3 24,3 C30,3 35,7 35,11 L35,15 L13,15 Z"/>
+    <!-- Head/neck -->
+    <path android:fillColor="#FFCCBC"
+        android:pathData="M17,11 C17,11 17,18 24,18 C31,18 31,11 31,11 Z"/>
+    <!-- Visor -->
+    <path android:fillColor="#212121"
+        android:pathData="M15,13 L33,13 L33,15 L15,15 Z"/>
+    <!-- Body armor -->
+    <path android:fillColor="#B71C1C"
+        android:pathData="M12,20 C12,20 8,22 8,30 L40,30 C40,22 36,20 36,20 C33,19 29,18 24,18 C19,18 15,19 12,20 Z"/>
+    <!-- Chest plate -->
+    <path android:fillColor="#D32F2F"
+        android:pathData="M17,20 L31,20 L31,30 L17,30 Z"/>
+    <!-- Armor details -->
+    <path android:fillColor="#B71C1C"
+        android:pathData="M17,23 L31,23 L31,24 L17,24 Z M17,26 L31,26 L31,27 L17,27 Z"/>
+    <!-- Shoulder pads -->
+    <path android:fillColor="#C62828"
+        android:pathData="M8,20 L14,20 L13,28 L8,26 Z"/>
+    <path android:fillColor="#C62828"
+        android:pathData="M40,20 L34,20 L35,28 L40,26 Z"/>
+    <!-- Gun -->
+    <path android:fillColor="#424242"
+        android:pathData="M36,22 L46,22 L46,25 L36,25 Z"/>
+    <path android:fillColor="#616161"
+        android:pathData="M42,20 L46,20 L46,22 L42,22 Z"/>
+    <!-- Legs / combat trousers -->
+    <path android:fillColor="#8B0000"
+        android:pathData="M14,30 L12,44 L21,44 L24,34 L27,44 L36,44 L34,30 Z"/>
+    <!-- Boot soles -->
+    <path android:fillColor="#212121"
+        android:pathData="M11,43 L22,43 L22,46 L11,46 Z M26,43 L37,43 L37,46 L26,46 Z"/>
+    <!-- Rank stripes -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M20,21 L24,21 L24,22.5 L20,22.5 Z M20,23 L24,23 L24,24.5 L20,24.5 Z"/>
+</vector>

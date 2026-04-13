@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D1B2A</color>
+    <color name="colorPrimaryDark">#060D14</color>
+    <color name="colorAccent">#00E5FF</color>
+    <color name="colorSurface">#1A2B3C</color>
+    <color name="colorCard">#162232</color>
+    <color name="colorText">#E0F2F1</color>
+    <color name="colorTextSecondary">#80B0C0</color>
+    <color name="colorPilot">#2196F3</color>
+    <color name="colorEngineer">#FFC107</color>
+    <color name="colorMedic">#4CAF50</color>
+    <color name="colorScientist">#9C27B0</color>
+    <color name="colorSoldier">#F44336</color>
+    <color name="colorEnergy">#00E5FF</color>
+    <color name="colorThreat">#FF5252</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorDanger">#F44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

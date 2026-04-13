@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:titleTextColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_empty_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No crew in Simulator.\nMove crew here from Quarters."
+        android:textColor="@color/colorTextSecondary"
+        android:gravity="center"
+        android:padding="24dp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_crew"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+
+    <!-- Training log -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="6dp"
+        app:cardBackgroundColor="#0A1A2A"
+        app:cardCornerRadius="8dp">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_training_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Training log will appear here..."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                android:fontFamily="monospace"
+                android:padding="8dp"/>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Action buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:padding="12dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="8dp">
+            <Button android:id="@+id/btn_select_all"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:text="Select All"
+                android:background="@android:color/transparent"
+                android:textColor="@color/colorAccent"/>
+            <Button android:id="@+id/btn_to_quarters"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🏠 Return Home"
+                android:backgroundTint="@color/colorSurface"
+                android:textColor="@color/colorText"/>
+        </LinearLayout>
+
+        <Button android:id="@+id/btn_train"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="💪 Train Selected"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:titleTextColor="@color/colorAccent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Name input -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="@color/colorCard"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Crew Member Name" android:textColor="@color/colorAccent"
+                        android:textStyle="bold" android:textSize="14sp" android:layout_marginBottom="8dp"/>
+                    <EditText
+                        android:id="@+id/et_crew_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter name..."
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorTextSecondary"
+                        android:backgroundTint="@color/colorAccent"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Specialization picker -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="@color/colorCard"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Choose Specialization" android:textColor="@color/colorAccent"
+                        android:textStyle="bold" android:textSize="14sp" android:layout_marginBottom="8dp"/>
+                    <RadioGroup android:id="@+id/rg_specialization"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RadioButton android:id="@+id/rb_pilot" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:text="🔵 Pilot"
+                            android:textColor="@color/colorText" android:buttonTint="@color/colorPilot"
+                            android:checked="true" android:textSize="15sp" android:padding="8dp"/>
+                        <RadioButton android:id="@+id/rb_engineer" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:text="🟡 Engineer"
+                            android:textColor="@color/colorText" android:buttonTint="@color/colorEngineer"
+                            android:textSize="15sp" android:padding="8dp"/>
+                        <RadioButton android:id="@+id/rb_medic" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:text="🟢 Medic"
+                            android:textColor="@color/colorText" android:buttonTint="@color/colorMedic"
+                            android:textSize="15sp" android:padding="8dp"/>
+                        <RadioButton android:id="@+id/rb_scientist" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:text="🟣 Scientist"
+                            android:textColor="@color/colorText" android:buttonTint="@color/colorScientist"
+                            android:textSize="15sp" android:padding="8dp"/>
+                        <RadioButton android:id="@+id/rb_soldier" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:text="🔴 Soldier"
+                            android:textColor="@color/colorText" android:buttonTint="@color/colorSoldier"
+                            android:textSize="15sp" android:padding="8dp"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Stat preview -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#0A1A2A"
+                app:cardCornerRadius="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Stats Preview" android:textColor="@color/colorAccent"
+                        android:textStyle="bold" android:textSize="13sp" android:layout_marginBottom="8dp"/>
+                    <TextView android:id="@+id/tv_stat_preview"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:textColor="@color/colorText" android:textSize="13sp"
+                        android:lineSpacingExtra="4dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Buttons -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button android:id="@+id/btn_cancel"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:layout_marginEnd="8dp"
+                    android:text="Cancel"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorTextSecondary"/>
+                <Button android:id="@+id/btn_create"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="✅ Recruit"
+                    android:backgroundTint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

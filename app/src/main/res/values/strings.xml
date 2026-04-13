@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Colony</string>
+    <string name="title_quarters">Quarters</string>
+    <string name="title_simulator">Simulator</string>
+    <string name="title_mission_control">Mission Control</string>
+    <string name="title_recruit">Recruit Crew</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_medbay">Medbay</string>
+    <string name="btn_attack">⚔ Attack</string>
+    <string name="btn_defend">🛡 Defend</string>
+    <string name="btn_special">⚡ Special</string>
+    <string name="btn_launch_mission">🚀 Launch Mission</string>
+    <string name="btn_train">💪 Train Selected</string>
+    <string name="btn_to_quarters">🏠 Return to Quarters</string>
+    <string name="btn_to_simulator">🔬 Move to Simulator</string>
+    <string name="btn_to_mission">🎯 Move to Mission Control</string>
+    <string name="btn_recruit">✅ Recruit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_discharge">💉 Discharge to Quarters</string>
+    <string name="empty_quarters">No crew in Quarters.\nRecruit new members or return crew from other locations.</string>
+    <string name="empty_simulator">No crew in Simulator.\nMove crew here from Quarters to train them.</string>
+    <string name="empty_mission">No crew in Mission Control.\nMove crew here from Quarters to start a mission.</string>
+    <string name="empty_medbay">No crew in Medbay.\nEveryone is healthy!</string>
+</resources>

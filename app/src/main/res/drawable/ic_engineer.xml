@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Head -->
+    <path android:fillColor="#FFC107"
+        android:pathData="M24,4 C20,4 17,7 17,11 C17,15 20,18 24,18 C28,18 31,15 31,11 C31,7 28,4 24,4 Z"/>
+    <!-- Hard hat -->
+    <path android:fillColor="#FF8F00"
+        android:pathData="M15,10 C15,10 15,6 24,6 C33,6 33,10 33,10 L15,10 Z"/>
+    <path android:fillColor="#FFB300"
+        android:pathData="M13,10 L35,10 L35,13 L13,13 Z"/>
+    <!-- Body / overalls -->
+    <path android:fillColor="#FFA000"
+        android:pathData="M14,20 C14,20 10,22 10,30 L38,30 C38,22 34,20 34,20 C32,19 28,18 24,18 C20,18 16,19 14,20 Z"/>
+    <!-- Tool belt -->
+    <path android:fillColor="#5D4037"
+        android:pathData="M12,27 L36,27 L36,30 L12,30 Z"/>
+    <!-- Wrench tool -->
+    <path android:fillColor="#BDBDBD"
+        android:pathData="M36,20 L40,16 L42,18 L38,22 L40,28 L37,28 Z"/>
+    <!-- Legs -->
+    <path android:fillColor="#E65100"
+        android:pathData="M16,30 L14,44 L22,44 L24,34 L26,44 L34,44 L32,30 Z"/>
+    <!-- Gear badge -->
+    <path android:fillColor="#BDBDBD"
+        android:pathData="M24,21 C22,21 21,22 21,24 C21,26 22,27 24,27 C26,27 27,26 27,24 C27,22 26,21 24,21 Z M24,22.5 C25.1,22.5 25.5,23.1 25.5,24 C25.5,24.9 25.1,25.5 24,25.5 C22.9,25.5 22.5,24.9 22.5,24 C22.5,23.1 22.9,22.5 24,22.5 Z"/>
+</vector>
