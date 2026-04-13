@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Head -->
+    <path android:fillColor="#FFCCBC"
+        android:pathData="M24,4 C20,4 17,7 17,11 C17,15 20,18 24,18 C28,18 31,15 31,11 C31,7 28,4 24,4 Z"/>
+    <!-- Glasses -->
+    <path android:fillColor="#212121"
+        android:pathData="M18,10 C18,10 18,13 21,13 C24,13 24,10 24,10 Z M24,10 C24,10 24,13 27,13 C30,13 30,10 30,10 Z M18,10 L30,10"/>
+    <!-- Lab coat -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M12,20 C12,20 9,22 9,30 L39,30 C39,22 36,20 36,20 C33,19 29,18 24,18 C19,18 15,19 12,20 Z"/>
+    <!-- Purple shirt underneath -->
+    <path android:fillColor="#9C27B0"
+        android:pathData="M18,20 L30,20 L30,30 L18,30 Z"/>
+    <!-- Pocket protector -->
+    <path android:fillColor="#7B1FA2"
+        android:pathData="M14,21 L17,21 L17,27 L14,27 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M14.5,21.5 L16.5,21.5 L16.5,22 L14.5,22 Z"/>
+    <!-- Test tube in hand -->
+    <path android:fillColor="#E040FB"
+        android:pathData="M38,18 L40,18 L42,28 L38,28 Z"/>
+    <path android:fillColor="#CE93D8"
+        android:pathData="M38,26 L42,26 L41,28 L39,28 Z"/>
+    <!-- Flask -->
+    <path android:fillColor="#B39DDB"
+        android:pathData="M5,20 L7,20 L9,28 C9,30 7,31 6,30 C5,29 3,30 5,28 Z"/>
+    <!-- Legs -->
+    <path android:fillColor="#6A1B9A"
+        android:pathData="M16,30 L14,44 L22,44 L24,34 L26,44 L34,44 L32,30 Z"/>
+    <!-- Stars/data points -->
+    <path android:fillColor="#E040FB"
+        android:pathData="M22,23 L22.7,25 L25,25 L23.2,26.2 L23.9,28 L22,26.8 L20.1,28 L20.8,26.2 L19,25 L21.3,25 Z"/>
+</vector>

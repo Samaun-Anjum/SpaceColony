@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark space background -->
+    <path android:fillColor="#0D1B2A"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z"/>
+
+    <!-- Outer ring -->
+    <path android:fillColor="#00E5FF"
+        android:pathData="M54,8 C29,8 8,29 8,54 C8,79 29,100 54,100 C79,100 100,79 100,54 C100,29 79,8 54,8 Z M54,14 C75.5,14 94,32.5 94,54 C94,75.5 75.5,94 54,94 C32.5,94 14,75.5 14,54 C14,32.5 32.5,14 54,14 Z"/>
+
+    <!-- Planet body -->
+    <path android:fillColor="#1A2B3C"
+        android:pathData="M54,20 C35,20 20,35 20,54 C20,73 35,88 54,88 C73,88 88,73 88,54 C88,35 73,20 54,20 Z"/>
+
+    <!-- Planet surface features -->
+    <path android:fillColor="#0D1B2A"
+        android:pathData="M35,42 C35,42 42,38 50,42 C58,46 65,40 65,40"/>
+    <path android:fillColor="#00E5FF" android:fillAlpha="0.3"
+        android:pathData="M30,55 C30,55 40,50 50,55 C60,60 70,52 78,55"/>
+
+    <!-- Rocket ship -->
+    <path android:fillColor="#00E5FF"
+        android:pathData="M54,24 L60,42 L60,58 L54,62 L48,58 L48,42 Z"/>
+    <!-- Rocket nose -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,18 L60,32 L48,32 Z"/>
+    <!-- Rocket windows -->
+    <path android:fillColor="#0D1B2A"
+        android:pathData="M54,44 C52,44 50,46 50,48 C50,50 52,52 54,52 C56,52 58,50 58,48 C58,46 56,44 54,44 Z"/>
+    <!-- Rocket fins -->
+    <path android:fillColor="#1565C0"
+        android:pathData="M48,52 L40,64 L48,60 Z"/>
+    <path android:fillColor="#1565C0"
+        android:pathData="M60,52 L68,64 L60,60 Z"/>
+    <!-- Rocket flame -->
+    <path android:fillColor="#FFC107"
+        android:pathData="M50,62 L54,72 L58,62 Z"/>
+    <path android:fillColor="#FF5722"
+        android:pathData="M51,62 L54,68 L57,62 Z"/>
+
+    <!-- Stars -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M22,25 L23,28 L26,25 L23,22 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M82,30 L83,32 L85,30 L83,28 Z"/>
+    <path android:fillColor="#00E5FF"
+        android:pathData="M25,75 L26,77 L28,75 L26,73 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M80,72 L81,74 L83,72 L81,70 Z"/>
+    <path android:fillColor="#FFC107"
+        android:pathData="M88,45 L89,47 L91,45 L89,43 Z"/>
+</vector>
